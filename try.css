@@ -35,7 +35,6 @@
     text-decoration: none;  
 }
 
-
 #navbar li a:hover,
 #navbar li a.active{
     color: #088178;
@@ -214,7 +213,28 @@
 }
 
 
+footer{
+    display: flex;
+    justify-content: space-between;
+}
 
+footer .col{
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer .col a{
+    text-decoration: none;
+    color: black;
+
+}
+
+footer .col a:hover{
+    color: #088178;
+    text-decoration: underline;
+    width: 138px;
+}
 
 
 
